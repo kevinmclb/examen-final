@@ -1,6 +1,6 @@
 let getNomComplet = () => {
-  let monNom = "Mechleb";
-  let monPrenom = "Kevin";
+  let monNom = "mechleb";
+  let monPrenom = "kevin";
   return {
     nom: monNom,
     prenom: monPrenom,
@@ -8,7 +8,7 @@ let getNomComplet = () => {
 };
 
 let getDeclaration = (data) => {
-  return data.nom + " " + data.prenom;
+  return data.nom + " - " + data.prenom;
 };
 
 let afficherDeclaration = () => {
